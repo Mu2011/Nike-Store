@@ -337,7 +337,6 @@ label {
 }
 
 .productButton {
-  float: right;
   padding: 10px 20px;
   background-color: black;
   color: white;
@@ -538,13 +537,38 @@ footer {
     display: none;
   }
 
-  .newSeason {
-    flex-direction: column;
+    .newSeason {
+      flex-direction: column;
+      
   }
 
   .nsItem:nth-child(2) {
     padding: 50px;
   }
+
+  
+
+  
+  .payment {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .search {
+    display: none;
+  }
+
+  .navBottom {
+    display: inline-block;
+  }
+
+  .gallery {
+    flex-direction: column;
+  }
+
+
 
   footer {
     flex-direction: column;
@@ -563,8 +587,4 @@ footer {
     background-color: whitesmoke;
   }
 
-  .payment {
-    width: 90%;
-    padding: 20px;
-  }
 }
