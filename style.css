@@ -454,6 +454,138 @@ footer {
   font-size: 18px;
 }
 
+/* General styles for all screen sizes */
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #111;
+  color: white;
+  padding: 20px 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .navTop {
+    flex-direction: column;
+  }
+
+  .limitedOffer {
+    font-size: 16px;
+  }
+
+  .menuItem {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .sliderTitle,
+  .sliderPrice,
+  .buyButton {
+    font-size: 20px;
+  }
+
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .featureDesc {
+    width: 100%;
+  }
+
+  .product {
+    clip-path: none;
+  }
+
+  .payment {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .productImg {
+    width: 100%;
+  }
+
+  .productDetails {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .productTitle {
+    font-size: 40px;
+  }
+
+  .productDesc {
+    font-size: 16px;
+  }
+
+  .colors,
+  .sizes {
+    flex-direction: column;
+  }
+
+  .color,
+  .size {
+    margin: 5px 0;
+  }
+
+  .gallery,
+  .galleryItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .galleryImg {
+    width: 100%;
+  }
+
+  .newSeason {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nsItem {
+    margin-bottom: 20px;
+  }
+
+  .nsImg {
+    height: auto;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .navBottom {
+    display: inline-block;
+  }
+  
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerLeft {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .footerRight {
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+
+  .footerMenu {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   nav {
     padding: 20px;
@@ -553,38 +685,4 @@ footer {
     width: 90%;
     padding: 20px;
   }
-}
-
-@media screen and (max-width: 700px) {
-  .search {
-    display: none;
-  }
-
-  .navBottom {
-    display: inline-block;
-  }
-
-  .gallery {
-    flex-direction: column;
-  }
-
-
-
-  footer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footerLeft {
-    padding: 20px;
-    width: 90%;
-  }
-
-  .footerRight {
-    padding: 20px;
-    width: 90%;
-    align-items: center;
-    background-color: whitesmoke;
-  }
-
 }
