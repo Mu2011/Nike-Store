@@ -454,19 +454,6 @@ footer {
   font-size: 18px;
 }
 
-/* General styles for all screen sizes */
-body {
-  font-family: 'Lato', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-nav {
-  background-color: #111;
-  color: white;
-  padding: 20px 5%;
-}
-
 @media screen and (max-width: 768px) {
   .navTop {
     flex-direction: column;
@@ -521,11 +508,6 @@ nav {
 
   .productDesc {
     font-size: 16px;
-  }
-
-  .colors,
-  .sizes {
-    flex-direction: column;
   }
 
   .color,
@@ -655,7 +637,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative; 
     text-align: center;
     top: 0;
   }
@@ -669,18 +650,14 @@ nav {
     display: none;
   }
 
-    .newSeason {
+  .newSeason {
       flex-direction: column;
-      
   }
 
   .nsItem:nth-child(2) {
     padding: 50px;
   }
 
-  
-
-  
   .payment {
     width: 90%;
     padding: 20px;
