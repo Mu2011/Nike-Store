@@ -456,6 +456,9 @@ footer {
 
 
  @media screen and (max-width:480px) {
+  * {
+    overflow-x: hidden;
+  }
   nav{
     padding: 20px;
   }
@@ -507,8 +510,13 @@ footer {
     flex-direction: column;
   }
 
+  .DproductDesc {
+    width: 45%;
+  }
+
   .product{
-    clip-path: none ;
+    padding: 20px;
+    clip-path: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -520,7 +528,7 @@ footer {
   }
 
   .productDetails{
-    width: 100%;
+    width: 100vh;
     padding: 0;
     display: flex;
     flex-direction: column;
