@@ -708,3 +708,7 @@ footer {
 .brb {
   border-bottom: 2px solid green;
 }
+
+.ovh {
+  overflow: hidden;
+}
