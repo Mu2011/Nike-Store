@@ -24,6 +24,10 @@ nav {
   justify-content: space-between;
 }
 
+.navItem {
+  overflow: hidden;
+}
+
 .search{
   display: flex;
   align-items: center;
